@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 
 <section class="py-20 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="grid lg:grid-cols-2 gap-16 items-start">
             <!-- Contact Details -->
             <div class="reveal-on-scroll">
@@ -78,7 +78,7 @@
 
             <!-- Map Section -->
             <div class="reveal-on-scroll h-full">
-                <div class="bg-slate-100 rounded-3xl overflow-hidden shadow-2xl h-[500px] border-8 border-white relative group">
+                <div class="bg-slate-100 rounded-3xl overflow-hidden shadow-2xl h-[350px] md:h-[500px] border-8 border-white relative group">
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.321685375532!2d77.42858157531776!3d23.231405979025!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c426372d8e063%3A0x89793f0b2f7a4d53!2sMP%20Nagar%2C%20Bhopal%2C%20Madhya%20Pradesh!5e0!3m2!1sen!2sin!4v1715610000000!5m2!1sen!2sin" 
                         width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">

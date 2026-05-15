@@ -2,7 +2,7 @@
 
 <!-- Hero Section -->
 <section id="home" class="relative py-16 lg:py-20 overflow-hidden bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40 relative z-10">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40 relative z-10">
         <div class="grid lg:grid-cols-2 gap-12 items-center">
             <div class="reveal-on-scroll">
                 <span class="inline-block bg-cyan-50 border border-cyan-100 text-[#00ADEF] font-bold mb-6 uppercase tracking-widest text-[10px] px-4 py-1.5 rounded-full animate-pulse-soft">
@@ -33,7 +33,7 @@
                 <!-- Glow background -->
                 <div class="absolute w-[500px] h-[500px] bg-amber-100 rounded-full blur-[100px] opacity-60"></div>
                 <!-- Shield Logo -->
-                <div class="relative z-10 w-80 h-80 lg:w-[450px] lg:h-[450px] bg-white rounded-3xl shadow-2xl flex items-center justify-center p-12 border border-blue-50">
+                <div class="relative z-10 w-full max-w-[280px] sm:max-w-xs lg:max-w-[450px] aspect-square bg-white rounded-3xl shadow-2xl flex items-center justify-center p-8 lg:p-12 border border-blue-50">
                     <img src="assets/hero.png" alt="Learning Education Hub - No.1 Student's Partner" class="w-full h-full object-contain">
                 </div>
             </div>
@@ -43,7 +43,7 @@
 
 <!-- Stats Section -->
 <section class="py-12 bg-white/30 backdrop-blur-sm border-y border-white/20">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="text-center mb-12">
             <h3 class="text-slate-900 font-bold uppercase tracking-[0.2em] text-sm">Our Global Reach</h3>
         </div>
@@ -70,7 +70,7 @@
 
 <!-- Programs Section -->
 <section id="programs" class="py-24 bg-slate-50/50">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="text-center max-w-3xl mx-auto mb-16 reveal-on-scroll">
             <h2 class="text-3xl font-black text-slate-900 mb-4 uppercase tracking-tight">Explore 150+ Programs Across All Streams</h2>
             <p class="text-slate-500 text-sm">Find the perfect academic path for your future career.</p>
@@ -194,7 +194,7 @@
 
 <!-- Why Choose us -->
 <section id="about" class="py-16 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="text-center mb-16 reveal-on-scroll">
             <h2 class="text-3xl font-black text-slate-900 uppercase mb-4">Why Choose Learning Education Hub?</h2>
             <p class="text-slate-500 text-sm">Empowering students through specialized support and excellence.</p>
@@ -226,7 +226,7 @@
 
 <!-- Admission Process -->
 <section id="admissions" class="py-16 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="text-center mb-20 reveal-on-scroll">
             <h2 class="text-4xl font-black text-slate-900 mb-4">Simple 5-Step Admission Process</h2>
             <p class="text-slate-500 font-medium">From initial consultation to final admission - we guide you through every step</p>
@@ -279,7 +279,7 @@
 
 <!-- University Partners Section -->
 <section id="partners" class="py-16 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="text-center mb-16 reveal-on-scroll">
             <h2 class="text-4xl font-black text-slate-900 mb-4">Our University Partners</h2>
             <p class="text-slate-500 font-medium">Direct partnerships with NAAC Grade A++ universities across India</p>
@@ -402,7 +402,7 @@
 
 <!-- Success Stories -->
 <section class="py-16 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="text-center mb-16 reveal-on-scroll">
             <h2 class="text-3xl font-black text-slate-900 uppercase mb-4">Student Success Stories</h2>
             <p class="text-slate-500 text-sm">Hear from our students who have achieved their dreams with NO.1 STUDENT'S PARTNER, M.P.</p>
@@ -449,8 +449,8 @@
 
 <!-- Admissions CTA Section -->
 <section class="py-16 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
-        <div class="bg-blue-50 rounded-[3rem] p-12 lg:p-20 relative overflow-hidden flex flex-col lg:flex-row items-center gap-12 border border-blue-100/50 reveal-on-scroll">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
+        <div class="bg-blue-50 rounded-[2rem] md:rounded-[3rem] p-8 md:p-12 lg:p-20 relative overflow-hidden flex flex-col lg:flex-row items-center gap-12 border border-blue-100/50 reveal-on-scroll">
             <div class="lg:w-3/5 relative z-10">
                 <h2 class="text-4xl lg:text-5xl font-black text-slate-900 mb-6 leading-tight">Admissions Open for 2025-26 Academic Session</h2>
                 <p class="text-slate-600 text-lg leading-relaxed mb-10 max-w-xl">
@@ -474,7 +474,7 @@
 
 <!-- FAQ Section -->
 <section id="faq" class="py-16 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="text-center mb-20 reveal-on-scroll">
             <h2 class="text-4xl font-black text-slate-900 mb-4">Frequently Asked Questions</h2>
             <p class="text-slate-500 font-medium">Clear your doubts about our process and services</p>

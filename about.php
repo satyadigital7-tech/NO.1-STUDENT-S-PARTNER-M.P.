@@ -2,7 +2,7 @@
 
 <!-- About Hero Section -->
 <section class="relative py-20 overflow-hidden bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40 relative z-10 text-center">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40 relative z-10 text-center">
         <h1 class="text-4xl lg:text-6xl font-black text-slate-900 mb-6 uppercase">About NO.1 STUDENT'S PARTNER, M.P.</h1>
         <p class="text-slate-500 text-lg max-w-3xl mx-auto leading-relaxed">
             Empowering the next generation of tech professionals through innovative education, hands-on training, and career-focused mentorship since 2015.
@@ -12,7 +12,7 @@
 
 <!-- Mission & Vision -->
 <section class="py-16 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="grid md:grid-cols-2 gap-8">
             <div class="bg-gradient-to-br from-[#003B6D] to-[#005a9e] p-12 rounded-[2.5rem] text-white reveal-on-scroll shadow-xl">
                 <div class="w-16 h-16 bg-white/10 rounded-2xl flex items-center justify-center mb-8">
@@ -37,7 +37,7 @@
 </section>
 
 <section class="py-16 bg-white/30 backdrop-blur-sm">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="text-center mb-16 reveal-on-scroll">
             <h2 class="text-3xl font-black text-slate-900 uppercase mb-4">Our Impact in Numbers</h2>
             <p class="text-slate-500 text-sm">Our growth and success stories over the decade.</p>
@@ -66,22 +66,23 @@
 
 <!-- Parent Company Section -->
 <section class="py-24 bg-transparent border-t border-slate-100">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="grid lg:grid-cols-2 gap-16 items-center">
             <div class="reveal-on-scroll">
                 <p class="text-[#00ADEF] font-bold mb-4 uppercase tracking-widest text-sm">Our Parent Company</p>
                 <h2 class="text-4xl font-black text-slate-900 mb-8 leading-tight">Learning Education Hub</h2>
                 <p class="text-slate-600 text-lg leading-relaxed mb-6">
-                    Learning Education Hub operates under the umbrella of its parent organization, MSSS, a renowned name in the field of social and educational service.
+                    At <b>Learning Education Hub</b>, we believe education should go beyond textbooks and theory. Our goal is to create a practical, engaging, and career-focused learning experience where students gain real-world skills that match current industry demands. Through interactive offline sessions conducted by experienced industry professionals, students receive hands-on training that prepares them for real careers, not just exams.
                 </p>
                 <p class="text-slate-500 text-sm leading-relaxed">
-                    With a legacy of empowerment and service, MSSS provides the foundational strength and ethical guidance that allows Learning Education Hub to maintain its high standards of educational excellence and student-centric support.
+                    We maintain small batch sizes to ensure every student receives personalized attention, mentorship, and continuous guidance throughout their learning journey. Our programs include live projects, real-time case studies, portfolio-building opportunities, certifications, and internship support to help students confidently transition into the professional world.<br/>
+                    At Learning Education Hub, we don’t just teach technology — we help build successful careers and confident futures.
                 </p>
             </div>
             <div class="reveal-on-scroll flex justify-center lg:justify-end">
-                <div class="w-80 h-80 bg-white rounded-[3rem] shadow-2xl flex items-center justify-center p-12 border border-blue-50 transform -rotate-3 hover:rotate-0 transition-transform duration-500">
+                <a href="https://learningeducationhub.in/" target="_blank" class="w-full max-w-xs aspect-square bg-white rounded-[3rem] shadow-2xl flex items-center justify-center p-8 md:p-12 border border-blue-50 transform -rotate-3 hover:rotate-0 transition-transform duration-500 cursor-pointer">
                     <img src="assets/Logo parent.jpeg" alt="MSSS Parent Company Logo" class="w-full h-full object-contain">
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -89,32 +90,26 @@
 
 <!-- Founder & Vision Section -->
 <section id="founder" class="py-24 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="grid lg:grid-cols-2 gap-16 items-center">
             <div class="reveal-on-scroll">
                 <p class="text-[#00ADEF] font-bold mb-4 uppercase tracking-widest text-sm">Founder & Vision</p>
                 <h2 class="text-4xl font-black text-slate-900 mb-8 leading-tight">Leadership Committed to Educational Excellence</h2>
                 <p class="text-slate-600 text-lg leading-relaxed mb-8">
-                    Er. Tanu Anand Chourey, the visionary founder and Director of Learning Education Hub, is a distinguished educationist with over 6+ years of comprehensive experience in educational counseling, institutional development, and academic leadership.
+                    Er. Tanu Anand Chourey, the visionary founder and Director of NO.1 STUDENT'S PARTNER, M.P. is a distinguished educationist with over 6+ years of comprehensive experience in educational counseling, institutional development, and academic leadership.
                 </p>
                 <p class="text-slate-500 text-sm leading-relaxed mb-10 pb-8 border-b border-slate-100">
                     The impressive academic credentials include B.A., M.A. (Political Science), PGDCA, M.B.A. (Human Resource Management), B.Lib.Sc., M.Lib.Sc., B.Ed., M.Ed., and is currently pursuing Ph.D. in Management from a prestigious university.
                 </p>
                 
                 <div class="space-y-4">
-                    <h4 class="font-bold text-slate-900 text-sm uppercase">Connect with Er. Chourey</h4>
-                    <div class="flex gap-6">
-                        <a href="#" class="flex items-center gap-2 text-slate-600 hover:text-[#00ADEF] transition-colors">
-                            <i class="fa-brands fa-facebook text-xl"></i>
-                            <span class="text-sm font-medium">Facebook Profile</span>
-                        </a>
-                    </div>
+                    <h4 class="font-bold text-slate-900 text-sm uppercase">Connect with Er. Tanu Anand Chourey</h4>
                 </div>
             </div>
             
             <div class="reveal-on-scroll relative animate-float">
                 <div class="absolute inset-0 bg-blue-100 rounded-[3rem] rotate-3 -z-10"></div>
-                <div class="rounded-[3rem] overflow-hidden shadow-2xl border-8 border-white">
+                <div class="rounded-[2rem] md:rounded-[3rem] overflow-hidden shadow-2xl border-4 md:border-8 border-white">
                     <img src="assets/Logo.jpeg" alt="Er. Tanu Anand Chourey" class="w-full h-full object-cover">
                 </div>
             </div>
@@ -124,7 +119,7 @@
 
 <!-- Unique Approach Section -->
 <section class="py-16 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="text-center mb-20 reveal-on-scroll">
             <h2 class="text-4xl font-black text-slate-900 mb-4 uppercase">Our Unique Approach</h2>
             <p class="text-slate-500 font-medium">What sets Learning Education Hub apart in educational guidance</p>
@@ -171,8 +166,8 @@
 
 <!-- CTA Section -->
 <section class="py-16 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
-        <div class="bg-[#003B6D] rounded-[3rem] p-12 lg:p-20 relative overflow-hidden flex flex-col items-center text-center gap-8 reveal-on-scroll shadow-2xl">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
+        <div class="bg-[#003B6D] rounded-[2rem] md:rounded-[3rem] p-8 md:p-12 lg:p-20 relative overflow-hidden flex flex-col items-center text-center gap-8 reveal-on-scroll shadow-2xl">
             <!-- Shimmer effect -->
             <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent -translate-x-full animate-[shimmer_3s_infinite] pointer-events-none"></div>
             

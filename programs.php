@@ -2,7 +2,7 @@
 
 <!-- Programs Hero Section -->
 <section class="relative py-20 overflow-hidden bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40 relative z-10 text-center">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40 relative z-10 text-center">
         <h1 class="text-4xl lg:text-6xl font-black text-slate-900 mb-6 uppercase">Explore 150+ Programs</h1>
         <p class="text-slate-500 text-lg max-w-3xl mx-auto leading-relaxed">
             Choose from a wide variety of courses across Engineering, Medical, Management, and more. Your journey to professional excellence starts here.
@@ -12,7 +12,7 @@
 
 <!-- Search/Filter Section (Optional but good for premium feel) -->
 <section class="pb-10">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="flex flex-wrap justify-center gap-4">
             <button onclick="filterPrograms('all')" class="category-btn px-6 py-2 rounded-full bg-[#003B6D] text-white font-bold text-sm transition-all active">All Programs</button>
             <button onclick="filterPrograms('engineering')" class="category-btn px-6 py-2 rounded-full bg-white border border-slate-200 text-slate-600 font-bold text-sm hover:border-[#003B6D] transition-all">Engineering</button>
@@ -34,7 +34,7 @@
 
 <!-- Programs Grid -->
 <section class="py-16 bg-transparent">
-    <div class="container mx-auto px-12 lg:px-40">
+    <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             
             <!-- Engineering Card -->

@@ -87,26 +87,28 @@
 </head>
 <body class="bg-main-gradient text-slate-900">
     <!-- Top Bar -->
-    <div class="bg-[#003B6D] text-white py-2 text-xs font-medium">
-        <div class="container mx-auto px-8 lg:px-20 flex justify-between items-center">
-            <div class="flex items-center gap-6">
-                <span class="flex items-center gap-2"><i class="fa-solid fa-phone"></i> +91 6265390145</span>
-                <span class="flex items-center gap-2"><i class="fa-solid fa-envelope"></i> no1studentspartner@gmail.com</span>
+    <div class="bg-[#003B6D] text-white py-2 text-[10px] md:text-xs font-medium">
+        <div class="container mx-auto px-6 md:px-12 lg:px-20 flex justify-between items-center">
+            <div class="flex items-center gap-4 md:gap-6">
+                <a href="tel:+916265390145" class="flex items-center gap-2 hover:text-[#00ADEF] transition-colors">
+                    <i class="fa-solid fa-phone"></i> <span>+91 6265390145</span>
+                </a>
+                <a href="mailto:no1studentspartner@gmail.com" class="hidden md:flex items-center gap-2 hover:text-[#00ADEF] transition-colors">
+                    <i class="fa-solid fa-envelope"></i> <span>no1studentspartner@gmail.com</span>
+                </a>
             </div>
-            <div class="flex items-center gap-6">
-                <div class="flex items-center gap-4">
-                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                </div>
+            <div class="flex items-center gap-4">
+                <a href="#" class="hover:text-[#00ADEF] transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="hover:text-[#00ADEF] transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/916265390145" class="hover:text-[#00ADEF] transition-colors"><i class="fa-brands fa-whatsapp text-sm"></i></a>
             </div>
         </div>
     </div>
 
     <header class="sticky top-0 z-50 bg-white border-b border-slate-100 shadow-sm">
-        <nav class="container mx-auto px-8 lg:px-20 py-3 flex items-center justify-between">
+        <nav class="container mx-auto px-6 lg:px-20 py-3 flex items-center justify-between">
             <a href="index.php" class="flex items-center gap-3">
-                <div class="h-14">
+                <div class="h-10 md:h-14">
                     <img src="assets/Logo.jpeg" alt="Learning Education Hub Logo" class="h-full object-contain">
                 </div>
             </a>
@@ -115,27 +117,62 @@
                 <li><a href="index.php" class="hover:text-[#00ADEF] transition-colors">Home</a></li>
                 <li><a href="about.php" class="hover:text-[#00ADEF] transition-colors">About Us</a></li>
                 <li><a href="programs.php" class="hover:text-[#00ADEF] transition-colors">Programs</a></li>
-                <li><a href="admissions.php" class="hover:text-[#00ADEF] transition-colors">Admissions</a></li>
                 <li><a href="contact.php" class="hover:text-[#00ADEF] transition-colors">Contact</a></li>
             </ul>
 
-            <div class="flex items-center gap-4">
-                <div id="google_translate_element"></div>
-                <a href="admissions.php" class="bg-slate-900 hover:bg-[#003B6D] text-white px-6 py-2 rounded font-bold text-sm transition-all uppercase">Apply now</a>
-                <button class="lg:hidden text-slate-900 text-2xl"><i class="fa-solid fa-bars"></i></button>
+            <div class="flex items-center gap-3 md:gap-4">
+                <div id="google_translate_element" class="hidden md:block"></div>
+                <a href="javascript:void(0)" onclick="openApplyModal('General Inquiry')" class="bg-slate-900 hover:bg-[#003B6D] text-white px-4 md:px-6 py-2 rounded font-bold text-[10px] md:text-sm transition-all uppercase">Apply now</a>
+                <button onclick="toggleMobileMenu()" class="lg:hidden text-slate-900 text-2xl focus:outline-none"><i class="fa-solid fa-bars" id="menuIcon"></i></button>
             </div>
-
-            <script type="text/javascript">
-                function googleTranslateElementInit() {
-                    new google.translate.TranslateElement({
-                        pageLanguage: 'en', 
-                        includedLanguages: 'hi,en', 
-                        layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
-                        autoDisplay: false
-                    }, 'google_translate_element');
-                }
-            </script>
-            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
         </nav>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="lg:hidden hidden fixed inset-0 z-[60] bg-white pt-20 px-8 transition-all duration-300 transform translate-x-full">
+            <button onclick="toggleMobileMenu()" class="absolute top-6 right-6 text-2xl text-slate-900"><i class="fa-solid fa-xmark"></i></button>
+            <ul class="flex flex-col gap-6 text-xl font-bold text-slate-900 uppercase">
+                <li><a href="index.php" onclick="toggleMobileMenu()" class="block border-b border-slate-50 pb-4">Home</a></li>
+                <li><a href="about.php" onclick="toggleMobileMenu()" class="block border-b border-slate-50 pb-4">About Us</a></li>
+                <li><a href="programs.php" onclick="toggleMobileMenu()" class="block border-b border-slate-50 pb-4">Programs</a></li>
+                <li><a href="contact.php" onclick="toggleMobileMenu()" class="block border-b border-slate-50 pb-4">Contact</a></li>
+            </ul>
+            <div class="mt-12 space-y-4">
+                <p class="text-slate-400 text-xs font-bold uppercase tracking-widest">Connect With Us</p>
+                <div class="flex gap-4">
+                    <a href="tel:+916265390145" class="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center text-xl"><i class="fa-solid fa-phone"></i></a>
+                    <a href="mailto:no1studentspartner@gmail.com" class="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center text-xl"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://wa.me/916265390145" class="w-12 h-12 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-xl"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function toggleMobileMenu() {
+                const menu = document.getElementById('mobileMenu');
+                const isHidden = menu.classList.contains('hidden');
+                
+                if (isHidden) {
+                    menu.classList.remove('hidden');
+                    setTimeout(() => menu.classList.remove('translate-x-full'), 10);
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    menu.classList.add('translate-x-full');
+                    setTimeout(() => menu.classList.add('hidden'), 300);
+                    document.body.style.overflow = 'auto';
+                }
+            }
+        </script>
+
+        <script type="text/javascript">
+            function googleTranslateElementInit() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en', 
+                    includedLanguages: 'hi,en', 
+                    layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                    autoDisplay: false
+                }, 'google_translate_element');
+            }
+        </script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </header>
     <main>

@@ -3,7 +3,7 @@
     <?php include 'includes/apply_modal.php'; ?>
 
     <footer class="bg-slate-900 text-slate-300 pt-20 pb-10">
-        <div class="container mx-auto px-8 lg:px-20">
+        <div class="container mx-auto px-6 md:px-12 lg:px-20">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
                 <!-- Brand -->
                 <div class="space-y-6">
@@ -94,6 +94,47 @@
         document.addEventListener('DOMContentLoaded', () => {
             document.querySelectorAll('.reveal-on-scroll').forEach(el => observer.observe(el));
         });
+
+        // Success Modal Logic
+        function showSuccessModal() {
+            const modal = document.getElementById('successModal');
+            const container = document.getElementById('successModalContainer');
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                container.classList.remove('scale-95', 'opacity-0');
+                container.classList.add('scale-100', 'opacity-100');
+            }, 10);
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeSuccessModal() {
+            const modal = document.getElementById('successModal');
+            const container = document.getElementById('successModalContainer');
+            container.classList.remove('scale-100', 'opacity-100');
+            container.classList.add('scale-95', 'opacity-0');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+                document.body.style.overflow = 'auto';
+            }, 300);
+        }
     </script>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="fixed inset-0 z-[110] hidden flex items-center justify-center p-4">
+        <!-- Backdrop -->
+        <div class="absolute inset-0 bg-slate-900/60 backdrop-blur-sm transition-opacity" onclick="closeSuccessModal()"></div>
+        
+        <!-- Modal Content -->
+        <div class="relative bg-white w-full max-w-sm rounded-[2rem] shadow-2xl p-8 text-center transform transition-all scale-95 opacity-0 duration-300" id="successModalContainer">
+            <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-inner">
+                <i class="fa-solid fa-check text-2xl text-green-600"></i>
+            </div>
+            <h3 class="text-2xl font-black text-slate-900 mb-2">Thank You!</h3>
+            <p class="text-slate-500 text-sm mb-8">Your application has been submitted successfully. Our counselors will contact you shortly.</p>
+            <button onclick="closeSuccessModal()" class="w-full bg-[#003B6D] hover:bg-[#00ADEF] text-white py-3.5 rounded-xl font-bold transition-all text-sm shadow-lg">
+                Close
+            </button>
+        </div>
+    </div>
 </body>
 </html>
