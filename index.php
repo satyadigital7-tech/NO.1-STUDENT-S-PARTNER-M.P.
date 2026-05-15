@@ -411,7 +411,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="bg-white p-8 rounded-3xl border border-slate-100 hover-lift hover-glow transition-all reveal-on-scroll">
                 <div class="flex items-center gap-4 mb-6">
-                    <img src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100&h=100&fit=crop" alt="Student" class="w-14 h-14 rounded-full object-crop border-2 border-white shadow-sm">
+                    <img src="assets/rahul.png" alt="Student" class="w-14 h-14 rounded-full object-crop border-2 border-white shadow-sm">
                     <div>
                         <h4 class="font-bold text-slate-900">Rahul Sharma</h4>
                         <p class="text-[10px] font-bold text-[#003B6D] uppercase tracking-widest">B.Tech - CSE</p>
@@ -422,7 +422,7 @@
 
             <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm reveal-on-scroll" style="transition-delay: 100ms">
                 <div class="flex items-center gap-4 mb-6">
-                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Student" class="w-14 h-14 rounded-full object-crop border-2 border-white shadow-sm">
+                    <img src="assets/priya.png" alt="Student" class="w-14 h-14 rounded-full object-crop border-2 border-white shadow-sm">
                     <div>
                         <h4 class="font-bold text-slate-900">Priya Patel</h4>
                         <p class="text-[10px] font-bold text-blue-600 uppercase tracking-widest">MBBS Student</p>
@@ -433,7 +433,7 @@
 
             <div class="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm reveal-on-scroll" style="transition-delay: 200ms">
                 <div class="flex items-center gap-4 mb-6">
-                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="Student" class="w-14 h-14 rounded-full object-crop border-2 border-white shadow-sm">
+                    <img src="assets/amit.png" alt="Student" class="w-14 h-14 rounded-full object-crop border-2 border-white shadow-sm">
                     <div>
                         <h4 class="font-bold text-slate-900">Amit Verma</h4>
                         <p class="text-[10px] font-bold text-amber-600 uppercase tracking-widest">BA LLB</p>
@@ -452,7 +452,7 @@
     <div class="container mx-auto px-6 md:px-12 lg:px-40">
         <div class="bg-blue-50 rounded-[2rem] md:rounded-[3rem] p-8 md:p-12 lg:p-20 relative overflow-hidden flex flex-col lg:flex-row items-center gap-12 border border-blue-100/50 reveal-on-scroll">
             <div class="lg:w-3/5 relative z-10">
-                <h2 class="text-4xl lg:text-5xl font-black text-slate-900 mb-6 leading-tight">Admissions Open for 2025-26 Academic Session</h2>
+                <h2 class="text-4xl lg:text-5xl font-black text-slate-900 mb-6 leading-tight">Admissions Open for 2026-27 Academic Session</h2>
                 <p class="text-slate-600 text-lg leading-relaxed mb-10 max-w-xl">
                     Don't miss out on your dream program. With limited seats and increasing competition, early application is crucial. Our expert counselors are ready to guide you through the entire process - from program selection to final admission.
                 </p>

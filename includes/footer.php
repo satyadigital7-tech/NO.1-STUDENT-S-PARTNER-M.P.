@@ -67,10 +67,15 @@
             </div>
 
             <div class="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
-                <p>&copy; 2024 Learning Education Hub — NO.1 STUDENT'S PARTNER, M.P. All Rights Reserved.</p>
+                <p>&copy; 2024 NO.1 STUDENT'S PARTNER, M.P. All Rights Reserved.</p>
                 <div class="flex gap-6">
-                    <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
-                    <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+                    <p>
+                        Designed and developed by 
+                        <a 
+                            href="http://talvyyo.com/" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="text-white hover:text-[#00ADEF] transition-colors font-semibold" >Talvvyo</a> </p>
                 </div>
             </div>
         </div>
